@@ -22,6 +22,7 @@ namespace Tyuiu.LachuginAV.Sprint2.Task0.V4.Lib
                 array[4] = x <= y;
                 array[5] = x >= y;
 
+                
                 return array;
             }
         
