@@ -15,6 +15,7 @@ namespace Tyuiu.LachuginAV.Sprint2.Task0.V4.Lib
             {
                 bool[] array = new bool[6];
 
+                
                 array[0] = x == y;
                 array[1] = x != y;
                 array[2] = x < y;
