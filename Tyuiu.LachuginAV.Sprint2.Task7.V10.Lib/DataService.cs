@@ -13,7 +13,8 @@ namespace Tyuiu.LachuginAV.Sprint2.Task7.V10.Lib
         {
             if ((y >= x * x - 2) && (y >= x) || (y >= -x))
             {
-                return true;
+               
+               return true;
             }
             return false;
         }
