@@ -13,7 +13,7 @@ namespace Tyuiu.LachuginAV.Sprint2.Task7.V10.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            if ((y >= (x * x) - 2) && (y >= x) && (y >= -x))
+            if ((y <= x || y <= -x) && y <= x * x - 2)
             {
                 return true;
             }

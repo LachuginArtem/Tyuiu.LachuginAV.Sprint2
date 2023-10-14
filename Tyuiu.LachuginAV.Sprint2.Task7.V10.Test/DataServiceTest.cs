@@ -13,8 +13,8 @@ namespace Tyuiu.LachuginAV.Sprint2.Task7.V10.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual(true, ds.CheckDotInShadedArea(0.5, 0.5));
-            Assert.AreEqual(true, ds.CheckDotInShadedArea(0, 1));
+            Assert.AreEqual(false, ds.CheckDotInShadedArea(0.5, 0.5));
+            Assert.AreEqual(false, ds.CheckDotInShadedArea(0, 1));
             Assert.AreEqual(false, ds.CheckDotInShadedArea(-0.5, -0.5));
         }
     }
