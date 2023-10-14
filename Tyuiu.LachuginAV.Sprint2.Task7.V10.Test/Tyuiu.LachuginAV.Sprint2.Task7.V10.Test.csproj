@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4189FA50-D42F-4DB5-BAD9-4E7CB90ED6BD}</ProjectGuid>
+    <ProjectGuid>{4DFDB2DC-3AFD-447F-9639-409CDF65DAD9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.LachuginAV.Sprint2.Task4.V12.Test</RootNamespace>
-    <AssemblyName>Tyuiu.LachuginAV.Sprint2.Task4.V12.Test</AssemblyName>
+    <RootNamespace>Tyuiu.LachuginAV.Sprint2.Task7.V10.Test</RootNamespace>
+    <AssemblyName>Tyuiu.LachuginAV.Sprint2.Task7.V10.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.LachuginAV.Sprint2.Task4.V12.Lib\Tyuiu.LachuginAV.Sprint2.Task4.V12.Lib.csproj">
-      <Project>{6a9ff9f4-d8dc-4843-93d8-7a2599fe44be}</Project>
-      <Name>Tyuiu.LachuginAV.Sprint2.Task4.V12.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.LachuginAV.Sprint2.Task7.V10.Lib\Tyuiu.LachuginAV.Sprint2.Task7.V10.Lib.csproj">
+      <Project>{f888a3dc-1f62-4bf9-a714-82552174eaf5}</Project>
+      <Name>Tyuiu.LachuginAV.Sprint2.Task7.V10.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
